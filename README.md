@@ -39,3 +39,29 @@ Tugas menyebut `PostPolicy`. Karena entitas utama aplikasi ini adalah produk, ot
 
 ## Dokumentasi
 Screenshot ada di folder `docs/` (query Tinker, Breeze, tes role, dan tes policy).
+### Query Tinker
+![Tinker 1](docs/tinker-1.png)
+![Tinker 2](docs/tinker-2.png)
+![Tinker 3](docs/tinker-3.png)
+![Tinker 4](docs/tinker-4.png)
+![Tinker 5](docs/tinker-5.png)
+
+### Breeze (login, register, dashboard, logout)
+![Login](docs/breeze-login.png)
+![Register](docs/breeze-register.png)
+![Dashboard](docs/breeze-dashboard.png)
+![Logout](docs/breeze-logout.png)
+
+### Tes role dan middleware
+![Admin](docs/role-admin.png)
+![User dashboard](docs/role-user-dashboard.png)
+![User 403](docs/role-user-403.png)
+
+### Tes policy
+![Produk admin](docs/products-admin.png)
+![Produk user](docs/products-user.png)
+![Produk editor](docs/products-editor.png)
+![User tambah produk 403](docs/policy-user-create-403.png)
+![Editor edit produk sendiri](docs/policy-editor-own.png)
+![Editor edit produk orang lain 403](docs/policy-editor-other-403.png)
+![Belum login diarahkan ke login](docs/policy-guest-login.png)
